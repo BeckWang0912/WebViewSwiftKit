@@ -1,0 +1,20 @@
+PODS:
+  - SnapKit (4.0.0)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - SnapKit
+  - WebViewJavascriptBridge
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
+    - WebViewJavascriptBridge
+
+SPEC CHECKSUMS:
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: dd85a40059e3c8790b43f9d1d67a513493a7ba42
+
+COCOAPODS: 1.5.3
