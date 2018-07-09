@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/BeckWang0912/WebViewSwiftKit.git", :tag => 'v'+s.version.to_s}
   s.source_files = 'Source/**/*.{h,m,swift}'
   s.resources = "Source/resource.bundle"
-  s.dependency ["SnapKit", "WebViewJavascriptBridge"]
+  s.dependency "SnapKit"
+  s.dependency "WebViewJavascriptBridge"
   s.requires_arc = true
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
